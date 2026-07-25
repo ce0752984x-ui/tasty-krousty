@@ -1258,7 +1258,7 @@
 
         <!-- HEADER -->
         <header class="header">
-            <h1>🍔 TASTY KROUSTY <span>FIREBASE</span></h1>
+            <h1>TASTY KROUSTY <span>Imen_off</span></h1>
             <div class="header-actions">
                 <div class="clock" id="clockDisplay">--:--</div>
                 <div class="firebase-status online" id="firebaseStatus">
@@ -2322,7 +2322,7 @@
                     <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(250px,1fr)); gap:10px;">
                         ${products.map(p => `
                             <div style="background:#f8f9fa; border-radius:14px; padding:12px; display:flex; justify-content:space-between; align-items:center; border-left:4px solid ${p.stock <= 0 ? '#dc3545' : p.stock <= 5 ? '#d62828' : '#2e7d32'};">
-                                <div><span style="font-size:1.2rem;">${p.emoji||'🍔'}</span> ${p.name}</div>
+                                <div><span style="font-size:1.2rem;">${p.emoji||'  '}</span> ${p.name}</div>
                                 <div style="display:flex; align-items:center; gap:8px;">
                                     <span style="font-weight:700; font-size:1.1rem;">${p.stock !== undefined ? p.stock : 20}</span>
                                     <button class="stock-adjust" data-id="${p.id}" data-change="1" style="background:#2e7d32; border:none; color:#fff; border-radius:30px; width:26px; height:26px; font-weight:700; cursor:pointer;">+</button>
